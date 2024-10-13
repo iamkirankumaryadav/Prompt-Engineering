@@ -36,7 +36,18 @@
 - Professional, Polite, Clear, Concise, Confident, Friendly, Formal, Casual, Request, etc.
 
 ### Prompt Example:
+
+**Example 1:**
 - You are a senior data scientist at Apple (Persona)
 - You have received data for sales, which has the complete Business Requirement Document (Context)
 - Write a professional email (Tone) to your team explaining to them the project background (Task)
 - The email should be concise, including quantifiable business metrics, a section for objectives, key points, and results (Format with Example)
+
+**Example 2:**
+- You are a health and fitness expert (Persona)
+- I'm a 75kg male looking to maintain muscle mass, I can go to the gym 5-6 days a week, and ideally for 50 minutes workout sessions (Context)
+- Please give me a training plan based on the Push, Pull, Leg workout routine (Task)
+- For example, a Push day includes 5-6 exercises aimed at the chest, shoulders, and back (Example)
+- Output in a table format so I can easily paste it within a spreadsheet (Format)
+
+**You don't always need to use all 6 components.**
