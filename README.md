@@ -1,6 +1,6 @@
 # Prompt Engineering
 
-PE is about crafting ideal inputs to get the most out of LLMs.
+**Prompt Engineering** is about crafting ideal inputs to get the most out of **Large Language Models (LLMs)**.
 
 1. **Token:** A unit easily understood by a language model.
 2. **Tokenization:** The mechanism to split the inputs into tokens.
