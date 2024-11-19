@@ -21,7 +21,7 @@
 5. Analyze data and spreadsheets
 6. Turn insights into visuals
 7. Create presentations
-8. Create your own AI agent
+8. Create your AI agent
 
 ### GPT
 - **G:** Generative (Generated data)
