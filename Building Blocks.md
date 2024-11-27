@@ -1,14 +1,14 @@
 # Building Blocks for a perfect prompt
 
 ### 1. Persona
-- Who do you want the AI to be? Think of someone you wish to seek advice with the task you are facing.
-- e.g. If you want to create a logo, a **graphic designer** will be the right person to set a persona.
-- If you want to create a workout plan, a fitness expert will be the right person to set a persona.
+- Who do you want the AI to be? Please think of someone you'd like to ask for advice about your task.
+- e.g. If you want to create a logo, a **graphic designer** will be the right person to set as a persona.
+- If you want to create a workout plan, a fitness expert will be the right person to set as a persona.
 
 ### 2. Contextual Information (Context)
 - What is the user's **background**? Provide relevant context or background information that the LLM can understand.
 - What does **success** look like? Aim of the user? What **environment** are they in?
-- Provide enough information to understand and get good results.
+- Provide enough information to understand the context, aim, and objective to get accurate results.
 - e.g. I'm an 80kg male (background) looking to reduce 5kg of excess fat (success) over the next 3 months. I don't have time for the gym, so home workouts for 1 hour will be enough (environment).
 
 ### 3. Task Specification (Task)
@@ -40,7 +40,6 @@
 - Style: Professional, Creative, Polite, Clear, Concise, Confident, Friendly, Formal, Casual, Request, etc.
 
 ### Prompt Example:
-
 **Example 1:**
 - You are a senior data scientist at Apple (Persona)
 - You have received data for sales, which has the complete Business Requirement Document (Context)
