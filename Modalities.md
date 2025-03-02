@@ -1,12 +1,13 @@
 # Modalities
 - The different types of data that an AI system can read, process and generate.
 - Think of modalities as different "senses" or forms of data. Common modalities include:
-1. Text: Written language.   
-2. Images: Visual data.   
-3. Audio: Sound data.   
-4. Video: Moving visual data.
-5. Code: Programming language.   
-6. 3D models: three dimensional data.
+
+1. **Text:** Written language.   
+2. **Images:** Visual data.   
+3. **Audio:** Sound data.   
+4. **Video:** Moving visual data.
+5. **Code:** Programming language.   
+6. **3D models:** three dimensional data.
 
 ### Multimodal GenAI:
 - When a GenAI system can handle multiple modalities, it's called "multimodal."
