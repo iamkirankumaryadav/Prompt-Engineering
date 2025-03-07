@@ -1,4 +1,4 @@
-# Building Blocks for a perfect prompt
+# Building blocks for a perfect prompt
 
 ### 1. Persona / Role
 - Who do you want the AI to be? Think of someone you would like to ask for advice about your task (e.g., Teacher, Doctor, Developer, Data Scientist, AI Specialist, etc.)
