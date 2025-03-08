@@ -21,7 +21,3 @@
 [Search Labs](https://labs.google.com/search)
 
 [A3 Supercomputers](https://cloud.google.com/blog/products/compute/introducing-a3-supercomputers-with-nvidia-h100-gpus)
-
-### Useful prompts for Data Science:
-
-[Statistics](https://g.co/bard/share/57d93557e5ea)
