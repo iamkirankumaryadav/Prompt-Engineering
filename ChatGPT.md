@@ -1,4 +1,4 @@
-# Chat GPT
+# ChatGPT
 
 - Chat GPT is a personal assistant AI you can talk to.
 - Chat GPT is a conversational (you can talk to it) generative AI (generate text, image, video, audio).
