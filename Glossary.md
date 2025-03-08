@@ -1,4 +1,4 @@
-# Prompt Engineering Glossary
+# Glossary
 
 ### Prompt 
 - A text-based input instructing a large language model (LLM) to generate a specific response.
