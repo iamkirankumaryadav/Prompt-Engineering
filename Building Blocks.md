@@ -136,3 +136,18 @@ How RAG addresses these issues by:
 
 ### Prompt Injection:
 - A malicious technique where an attacker manipulates the LLM's behavior by injecting deceptive or wrong instructions into the prompt.
+
+#### Do's and Dont's
+
+**Do:**
+1. Be clear and specific
+2. Keep it conversational
+3. Provide examples and guidance
+4. Use correct punctuation, capitalization, and grammar
+5. Be polite
+6. Check for accuracy
+
+**Don't:**
+1. Don't just blindly copy and paste the responses. Validate the response.
+2. Don't use slang words or jargons, keep your conversation professional and polite.
+3. Don't provide conflicting instructions.
