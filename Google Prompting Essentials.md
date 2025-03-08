@@ -6,7 +6,7 @@ A good prompt follows a simple framework.
 
 ### 1. Task (Persona, Format)
 - You need to describe the task you want the GenAI tool to help you with.
-- It should contain a **Persona** and a **Format** preference, so that the task is specific.
+- It should contain a **persona** and a **format** preference, so that the task is specific.
 - Persona refers to what expertise you want the GenAI tool to draw from.
 - You can ask the tool to take on a persona like a professional writer, or a marketing executive with 15 years of experience.
 - You can ask it to create output for a specific audience, a customer, or a manager.
