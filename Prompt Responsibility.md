@@ -16,6 +16,9 @@
  - Disclose when AI-generated content is shared with others.
 
 # Hallucinations:
-**Definition:** AI sometimes produces false or nonsensical information.
-**Cause:** Often happens due to unclear instructions or prompts.
-**Prevention:** Always verify the accuracy of AI outputs before relying on them.
+
+> **Definition:** AI sometimes produces false or nonsensical information.
+
+> **Cause:** Often happens due to unclear instructions or prompts.
+
+> **Prevention:** Always verify the accuracy of AI outputs before relying on them.
