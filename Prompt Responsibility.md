@@ -15,8 +15,7 @@
  - AI results can be wrong or biased, review them carefully.
  - Disclose when AI-generated content is shared with others.
 
-# Hallucinations:
-
+# Hallucinations
 - **Definition:** AI sometimes produces false or nonsensical information.
 - **Cause:** Often happens due to unclear instructions or prompts.
 - **Prevention:** Always verify the accuracy of AI outputs before relying on them.
