@@ -9,7 +9,6 @@
 - Prompts help the model understand the persona, task, domain, instruction, context and guidelines.
 - A poor prompt can lead to ambiguity, misinterpretetion, hallucination, bias, or irrelevant answers.
 - Concepts like few-shot and zero-shot learning rely on prompt design to teach the model without retraining.
-- Poor prompts can lead to hallucinations, bias, or irrelevant answers, while optimized prompts improve reliability.
 
 ## What is prompt engineering?
 - The practice of designing and refining prompts to guide LLMs toward producing accurate, relevant, and context-aware outputs.
