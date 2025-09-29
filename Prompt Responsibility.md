@@ -1,5 +1,3 @@
-# Using GenAI the Right Way:
-
 ### Think Before You Use It:
 - Ask yourself: "Is GenAI the best way to solve this problem?"
 - Make sure it fits with what you need to do for your work and with your team.
