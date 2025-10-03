@@ -3,6 +3,12 @@
 ### Prompt 
 - The input text or instruction given to an AI model to generate a response.
 - **Example:** "Write a poem about a robot who dreams of becoming a chef."
+ 
+### Prompt Engineering
+- The art and science of designing and refining prompts to guide GenAI models towards producing the most accurate, relevant, and useful response for a specific task.
+
+### Context Engineering
+- The practice of structuring, curating, and delivering background knowledge and context to the LLM so that its reasoning and responses are grounded in the right information.
 
 ### Model
 - The AI system that processes the prompt and generates output.
@@ -50,7 +56,7 @@
 
 ### Prompt Engineering Techniques
 
-1. **Instruction Prompting:** 
+1. **Instruction Based Prompting:** 
 - Giving clear instructions to guide the LLM’s behavior.
 - **Example:** "Summarize the following text in a single sentence."
 
@@ -66,22 +72,21 @@
 - Ask a specific question to elicit a targeted response.
 - **Example:** "What is the capital of France?"
 
-5. **Role Prompting:** 
+5. **Role Based Prompting:** 
 - Assigning a role to the LLM to influence its tone or style.
 - **Example:** "You are a knowledgeable AI assistant. Answer the following question as if you were a historian."
 
-6. **Zero-shot Prompting:**
+6. **Zero Shot Prompting:**
 - Asking the model to perform a task without providing examples.
 - **Example:** “Translate this sentence into French: I love learning.”
 
-7. **Few-shot Prompting:**
+7. **Few Shot Prompting:**
 - Providing a few examples in the prompt to guide the model’s behavior.
 - **Example:** Showing 2–3 translations before asking for a new one.
 
-8. **Chain-of-Thought Prompting:**
+8. **Chain of Thought Prompting:**
 - Encouraging the LLM to reason step-by-step before answering.
 - Example: “Let’s think step by step...”
-
 
 ### **Temperature:** 
 - A hyperparameter that controls the randomness of the LLM's output.
