@@ -1,39 +1,48 @@
 # Building blocks for a perfect prompt
 
-### 1. Persona / Role
+## 1. Persona / Role
 - Who should the AI be? Choose a role that matches your task, like Teacher, Doctor, Developer, Designer, Fitness Coach, etc.
 - Assigning a role to the LLM, like **"You are a helpful assistant"** or **"You are a expert programmer."**
 - Persona influences the style, context and content of the response.
 - Eample: Want to build an app? Set the persona as a Developer. Creating a logo? Set the persona as a Graphic Designer.
 
-### 2. Task / Instruction
+## 2. Task / Instruction
 - Always begin the sentence with an action verb and provide clear instructions with a defined goal.
 - e.g., Generate, Give, Write, Draft, Analyze, Summarize, Translate, etc.
-- The task may be a single, simple task or involve multiple requests.
-- e.g., **Single / Simple Task:** Generate a 3-month workout plan.
-- **Multiple Task Request:** Plan a Leh travel itinerary—search for the best places to visit, summarize the top three nearest my hotel, include accommodation and food options, and order them to minimize travel time.
 
-### 3. Context
+###  Single | Simple Task
+- Example: Analyze the user guide and answer the user queries.
+
+### Multiple Task
+Example:
+1. Plan a travel itinerary.
+2. Ask a follow up questions: Season, # Days, # Persons, # Specific Preferences, etc. 
+3. Search for the best places to visit.
+4. Summarize the top three nearest to the hotel.
+5. Include accommodation and food options.
+6. Arrange them in the order to minimize the travel time.
+
+## 3. Context
 - What is the user's background? Provide relevant context or background information that the LLM can understand.
 - Providing relevant background information or examples to guide the LLM's response.
 - What does success look like? What is the user's aim? What environment are they in?
 - Provide enough information to understand the context, aim, and objective to get accurate results.
 - e.g., I am an 80kg male (background) looking to reduce 5kg of excess fat (success) over the next 3 months. I do not have time for the gym, so home workouts for 1 hour will be sufficient (environment).
 
-### 4. Input Data / Output Indicator / Format
+## 4. Input Data / Output Indicator / Format
 - Summarize the information the LLM should process (e.g., a text passage, a question, a code snippet).
 - Visualize the exact format you want the result to look like.
 - Specify the desired format or structure or type of the response (Text, list, code, etc)
-- Define the desired output format or structure of the output (Paragraph, bullet points, table, code).
+- Define the desired output guidelines and format or structure of the output (Paragraph, bullet points, table, code).
 - **Formats:** Tables, emails, bullet points, code blocks, paragraphs, Markdown.
 
-### 5. Constraints
-- Limitations or rules the LLM must adhere to (e.g., "Keep the summary under 100 words," "Do not mention names").
+## 5. Constraints
+- Limitations or rules the LLM must strictly follow to (e.g., "Keep the summary under 100 words," "Do not mention names").
 - **Constraints:** Word counts, token limits, brevity, compactness, etc.
 - **Rules:** Set any rules or guidelines the LLM should follow when generating output.
 - **Example:** We collected user feedback, the sequence is First Name, Last Name, Contact, Email. Output in table format with specified column names.
 
-### 6. Examples
+## 6. Examples
 - Showing the LLM some few shot examples where the reasoning process is explained in the examples.
 - **Placeholders:** Create placeholders for specific information that will be filled in for each prompt instance. (e.g., Link and refereals: [text](url))
 - The LLM will also show the reasoning process when answering the prompt.
@@ -42,10 +51,10 @@
 - Here is my resume for reference "Copy and paste your resume content"
 - The examples are not necessary for every prompt but including a relevant example improves the quality of your output.
 
-### 7. Tone
+## 7. Tone
 - Style: Professional, Creative, Polite, Clear, Concise, Confident, Friendly, Formal, Casual, Request, etc.
 
-### Prompt Example:
+## Prompt Example:
 **Example 1:**
 - You are a senior data scientist at Apple (Persona)
 - You have received data for sales, which has the complete Business Requirement Document (Context)
@@ -137,9 +146,9 @@ How RAG addresses these issues by:
 ### Prompt Injection:
 - A malicious technique where an attacker manipulates the LLM's behavior by injecting deceptive or wrong instructions into the prompt.
 
-#### Do's and Dont's
+## Do's and Dont's
 
-**Do:**
+### **Do:**
 1. Be clear and specific
 2. Keep it conversational
 3. Provide examples and guidance
@@ -147,7 +156,7 @@ How RAG addresses these issues by:
 5. Be polite
 6. Check for accuracy
 
-**Don't:**
+### **Don't:**
 1. Don't just blindly copy and paste the responses. Validate the response.
 2. Don't use slang words or jargons, keep your conversation professional and polite.
 3. Don't provide conflicting instructions.
