@@ -119,36 +119,69 @@ How RAG addresses these issues by:
 - The LLM uses both the original prompt and the retrieved information to generate a more accurate and informed response.
 
 ### Prompt Chaining:
-- Breaking down a complex task into a series of simpler interconnected prompts, where the output of one prompt becomes the input for the next.
+- Breaking down a complex task into a simpler and smaller interconnected prompts/steps.
+- Using the output of one prompt as the input for the next.
 - Creating a "chain" of instructions that guide the language model towards the desired outcome.
+- Instead of asking the AI to do everything in one go, chain prompts to handle each part accurately.
 
 ### Iterative Prompting:
-- Refining prompts based on the LLM's responses gradually improves the output quality.
-- It is like having a conversation where you adjust your questions or instructions based on the LLM's response.
+- Refining the LLMs output step by step by giving feedback or additional instructions after each response.
+- It is like having a conversation where you adjust your prompt/instructions based on the LLM's response.
 - By refining your prompts, you can significantly improve the quality and relevance of the LLM's output.
 
 ### System Prompt:
-- A system prompt is a special type of prompt that's given to a LLM at the beginning of a conversation or interaction.
-- It's used to set the overall tone, behavior, and guidelines for the LLM's responses throughout that session. Essentially, it defines the "role" or "personality" of the LLM.
-- This ensure that the LLM maintains a consistent behavior throughout a conversation.
+- A system prompt is the hidden instruction given to a LLM that sets the persona, behaviour, tone, rules, guidelines, before any user interaction.
+- Essentially, it defines the "role" or "personality" of the LLM it should always follow.
+- This ensure that the LLM maintains a consistent behavior throughout the conversations.
 
 ### Temperature:
 - A parameter that controls the randomness of the LLM's output.
 - **Higher** temperatures result in more creative, sometimes random and unpredictable responses.
 - **Lower** temperatures produce more deterministic, consistent and focused responses.
 
-### Top-p (Nucleus Sampling):
-- A parameter that controls the diversity of the LLM's output by selecting from the most probable tokens until the cumulative probability reaches a certain threshold.
+## Top-p (Nucleus Sampling):
+- **What it does?:** Chooses from the smallest set of words whose cumulative probability ≥ p.
+- **Example:** If p = 0.9, include words until their combined probability reaches 90%.
+- **Effect:** More adaptive than top-k because the number of words changes based on distribution.
+
+### Example:
+
+Word | Probability
+:--- | :---
+Cat | 0.40
+Dog | 0.30
+Elephant | 0.15
+Giraffe | 0.10
+Zebra | 0.05
+
+- If p = 0.8, the model will include words until their cumulative probability ≥ 0.8:
+- cat (0.40) + dog (0.30) + elephant (0.15) = 0.85 → stop.
+- So it will choose from {cat, dog, elephant}, ignoring giraffe and zebra.
+
+## Top-k Sampling
+- What it does?: Chooses from the k most probable words.
+- Example: If k = 3, the model only considers the top 3 words with highest probability.
+- Effect: Limits randomness but can ignore slightly less probable but meaningful words.
+
+Feature | Top-k | Top-p (Nucleus)
+:--- | :--- | :---
+Selection | Fixed number of words (k) | Variable number based on probability sum (p)
+Flexibility | Less flexible | More flexible, adapts to context
+Risk | May cut off relevant words | Keeps diversity but still focused
+Example | k = 5 → top 5 words | p = 0.9 → words until 90% cumulative probability
 
 ### Token:
 - A basic unit of text that the LLM processes. It can be a word, a part of a word, a punctuation mark, or a full stop.
+- AI models don’t read text as whole sentences—they break it into tokens.
+- The number of tokens affects cost, speed, and context length.
+- Example: 1 token ~ 4 characters in english. 100 token ~ 75 words. Every model have a token limit.
 
 ### Hallucination:
 - When an LLM generates information that is factually incorrect or nonsensical.
 
 ### Grounding:
 - Connecting the LLM's responses to reliable external sources to reduce hallucinations and improve accuracy.
-- Example: RAG or providing access to a PDF, excel, word, or text file.
+- Example: RAG or providing access to a PDF, Excel, Document, Word, web, hyperlink, html, or text file.
 
 ### Prompt Injection:
 - A malicious technique where an attacker manipulates the LLM's behavior by injecting deceptive or wrong instructions into the prompt.
