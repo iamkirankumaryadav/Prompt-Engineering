@@ -93,7 +93,14 @@ Example:
 - ToT enables LLMs to tackle complex tasks that require strategic planning and exploration of multiple possibilities.
 - ToT allows LLMs to adapt to different problem-solving strategies and explore diverse solutions.
 
-### Retrieval Augmented Generation (RAG):
+## Retrieval Augmented Generation (RAG):
+- A technique used in AI to make answers more accurate and grounded in real information.
+- **Normal AI Model:** Generates answers based on only on what it learned during training.
+- **RAG Model:** Before answering, it retreives relevant documents from a knowledge base.
+- Then the RAG model uses those documents to generate the final answer.
+- RAG Model keeps answer up-to-date, reduces hallucinations.
+- **Knowledge Base:** Database, documents, user guides, training guides, or website.
+- **Knowledge Source:** Essention products, sub category or domain in which the documents can be grouped or arranged.
 - Retrieving relevant information from an external knowledge base and incorporating it into the prompt to enhance the LLM's response.
 - Enhancing the capabilities of LLMs by allowing them to access and incorporate information from external knowledge sources. 
 - This helps to address limitations such as outdated information or a lack of specific knowledge within the LLM's training data.
@@ -103,7 +110,7 @@ How RAG addresses these issues by:
 
 1. **Retrieval:**
 - When a user asks a question, the system first retrieves relevant information from an external knowledge base (e.g., a database, a document repository, or the internet).
-- This retrieval process often involves converting the user's query and the knowledge base content into numerical representations (embeddings) and then finding the closest matches.
+- This retrieval process often involves converting the user's query into numerical representations (vector embeddings) and then finding the closest matches.
 
 2. **Augmentation:**
 - The retrieved information is then added to the user's prompt, providing the LLM with additional context.
