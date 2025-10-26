@@ -19,7 +19,7 @@
 ### Embedding
 - Representing text as numerical vectors for tasks like semantic search or similarity comparison.
 
-### System Prompt
+### System Prompt | Meta Prompt
 - A hidden prompt that sets the behavior or personality of the model.
 
 ### Prompt Tuning / Fine-tuning
