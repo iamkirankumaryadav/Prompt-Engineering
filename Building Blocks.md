@@ -1,14 +1,14 @@
 # Building blocks for a perfect prompt
 
 ## 1. Persona / Role
-- Who should the AI be? Choose a role that matches your task, like Teacher, Doctor, Developer, Designer, Fitness Coach, etc.
+- Who should the AI be? Choose a role that matches your task, like **Teacher**, **Doctor**, **Developer**, **Designer**, **Fitness Coach**, etc.
 - Assigning a role to the LLM, like **"You are a helpful assistant"** or **"You are a expert programmer."**
 - Persona influences the style, context and content of the response.
-- Eample: Want to build an app? Set the persona as a Developer. Creating a logo? Set the persona as a Graphic Designer.
+- Example: Want to build an app? Set the persona as a **Developer**. Creating a logo? Set the persona as a **Graphic Designer**.
 
 ## 2. Task / Instruction
 - Always begin the sentence with an action verb and provide clear instructions with a defined goal.
-- e.g., Generate, Give, Write, Draft, Analyze, Summarize, Translate, etc.
+- e.g., Generate, Give, Provide, Write, Draft, Analyze, Summarize, Create, Translate, etc.
 
 ###  Single | Simple Task
 - Example: Analyze the user guide and answer the user queries.
