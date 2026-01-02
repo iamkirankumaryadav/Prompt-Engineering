@@ -4,12 +4,12 @@
 
 1. **Token:** A unit easily understood by a language model.
 2. **Tokenization:** The mechanism to split the inputs into tokens.
-3. **Completion:** The Language model takes a prompt and creates a completion by constantly predicting the next token.
+3. **Completion:** The language model takes a prompt and creates a completion by constantly predicting the next token.
 
 ### Prompting
 - The process of providing specific **instructions** (prompts) to receive new information or to achieve the desired outcome on a task.
 - When we write a prompt for a GenAI tool, we give it a series of inputs and tell it what we want it to generate.
-- Some GenAI tools can generate text or images, while others generate video, audio, or code.
+- Some GenAI tools can only generate text, while others generate image, video, audio, or code.
 - Prompting is both an art and a science. To get the best results we need to be precise in defining what we need.
 - Providing context and setting parameters will get you the best output from GenAI.
 
@@ -41,7 +41,6 @@
 - Since, this are written by humans, some of these training data contains offensive information.
 - That can cause gender, racial, and other biases.
 - e.g. If you ask GPT about doctors and nurses, it considers doctors as male and nurses as female.
-- Fine-tuning can help to decrease the bias.
 
 ### Gemini
 - Gemini has a huge context window as compared to Chat GPT.
