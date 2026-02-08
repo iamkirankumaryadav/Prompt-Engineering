@@ -1,7 +1,7 @@
 # Prompt Engineering Important Questions
 
 ## What is a prompt?
-- A prompt is the input or instruction you give to an LLM to get a specific response.
+- A prompt is the input or instruction you provide to an LLM to get a specific response.
 - It can be a question, instruction, or structured template that sets the context for the model.
 
 ## Why prompts are important for LLMs?
