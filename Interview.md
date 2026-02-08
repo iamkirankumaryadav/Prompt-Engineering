@@ -73,13 +73,15 @@ Use the following headers: [List required section titles].
 
 ## What are the key components of an effective prompt?
 
-### ✅ 3. Role or Persona
+### ✅ 1. Persona or Role
 - Assigning a role helps the model adopt the right tone and expertise.
 - Example: “Act as a career coach and suggest ways to improve my resume.”
 
 ### ✅ 2. Context
 - Provide background or relevant details to guide the response.
 - Example: “You are an expert data scientist. Explain the difference between supervised and unsupervised learning.”
+
+
 
 ### ✅ 4. Constraints
 - Define limits like word count, format, or style.
