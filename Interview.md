@@ -1,17 +1,17 @@
 # Prompt Engineering Important Questions
 
 ## What is a prompt?
-- A prompt is the input or instruction you provide to an LLM to get a specific response.
-- It can be a question, instruction, or structured template that sets the context for the model.
+- **Definition:** A prompt is the specific input or instruction provided to an LLM to generate a desired response.
+- **Format:** It can take the form of a question, a direct instruction, or a structured template to establish necessary context.
 
 ## Why prompts are important for LLMs?
-- A well-crafted prompt improves the accuracy, tone, consistency, reliability, and relevance of the response.
-- Prompts help the model understand the persona, task, domain, instruction, context, and guidelines.
-- A poor prompt can lead to ambiguity, misinterpretation, hallucination, bias, or irrelevant answers.
-- Concepts like few-shot and zero-shot learning rely on prompt design to teach the model without retraining.
+- **Impact:** Well-crafted prompts directly enhance the accuracy, tone, consistency, reliability, and relevance of AI outputs.
+- **Guidance:** Prompts provide the framework for the model to grasp persona, intent, context, task, constraints, and specific instructions.
+- **Risk:** Poorly designed prompts often result in ambiguity, misinterpretation, hallucinations, bias, or irrelevant content.
+- **Adaptability:** Prompt design enables zero-shot and few-shot learning, allowing the model to perform new tasks without retraining. 
 
 ## What is prompt engineering?
-- The art of designing and optimizing prompts to guide LLMs toward generating the desired responses.
+- The art of designing and refining/optimizing prompts to guide LLMs toward generating the desired responses.
 - Understanding how the model interprets language and leveraging that to achieve the desired result without retraining the model.
 
 ## Google Prompt Template
@@ -55,20 +55,20 @@ Use the following headers: [List required section titles].
 ## How do LLMs differ from traditional NLP techniques?
 
 **No explicit model training:**
-- Traditional NLP often involves building and training models on labeled datasets.
-- Prompt engineering works with pre-trained models and focuses on crafting the right instructions.
+- **Methodology:** Unlike traditional NLP, which requires training models on labeled datasets, prompt engineering utilizes pre-trained models.
+- **Execution:** It shifts the technical focus from data engineering and model training to crafting precise instructions and context.
 
 **Instruction-driven vs. data-driven:**
-- In NLP, performance improvements usually come from more data or better algorithms.
-- In prompt engineering, improvements come from better phrasing, context, and structure/template of the prompt.
+- **Performance Drivers:** Traditional NLP relies on scaling data and algorithms, whereas prompt engineering relies on refining phrasing and structure**.
+- Optimization:** Improvements are achieved through better context and templates rather than technical modifications to the underlying model.
 
 **Dynamic and iterative:**
-- Prompt engineering is more experimental and iterative—testing variations of prompts to optimize responses.
-- Traditional NLP pipelines are more rigid and model-centric.
+- **Workflow:** Prompt engineering is a dynamic, experimental process focused on iteratively testing prompt variations to optimize outputs.
+- **Flexibility:** While traditional NLP pipelines are rigid and model-centric, prompt engineering offers a flexible, input-driven approach to problem-solving.
 
 **Few-shot and zero-shot capabilities:**
-- Prompt engineering leverages the model’s ability to generalize from few-shot or zero-shot.
-- Traditional NLP approaches are complicated and repetitive.
+- **Generalisation:** Prompt engineering leverages the model's ability to perform tasks via zero-shot or few-shot learning.
+- **Efficiency:** It simplifies complex workflows by replacing the repetitive architectures found in traditional NLP.
 
 ## What are the key components of an effective prompt?
 
