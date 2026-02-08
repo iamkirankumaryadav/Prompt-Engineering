@@ -1,20 +1,58 @@
 # Prompt Engineering Important Questions
 
 ## What is a prompt?
-- A prompt is the input or instruction you give to a LLM to get a specific response.
+- A prompt is the input or instruction you give to an LLM to get a specific response.
 - It can be a question, instruction, or structured template that sets the context for the model.
 
 ## Why prompts are important for LLMs?
-- A well-creafted prompt improves the accuracy, tone, consistency, reliability, and relevance of the response.
-- Prompts help the model understand the persona, task, domain, instruction, context and guidelines.
-- A poor prompt can lead to ambiguity, misinterpretetion, hallucination, bias, or irrelevant answers.
+- A well-crafted prompt improves the accuracy, tone, consistency, reliability, and relevance of the response.
+- Prompts help the model understand the persona, task, domain, instruction, context, and guidelines.
+- A poor prompt can lead to ambiguity, misinterpretation, hallucination, bias, or irrelevant answers.
 - Concepts like few-shot and zero-shot learning rely on prompt design to teach the model without retraining.
 
 ## What is prompt engineering?
-- The practice of designing and refining prompts to guide LLMs toward producing accurate, relevant, and context-aware outputs.
+- The art of designing and optimizing prompts to guide LLMs toward generating the desired, accurate, relevant, and context-aware responses.
 - Understanding how the model interprets language and leveraging that to achieve the desired result without retraining the model.
 
-## How LLMs differs from traditional NLP techniques?
+## Google Prompt Template
+```
+# PERSONA
+Act as a [Specific Role/Expert, e.g., Senior Software Architect or Creative Writer]. 
+Your tone should be [e.g., Professional, Empathetic, or Academic].
+
+# CONTEXT
+Background Information: [Provide necessary facts, data, or documents].
+Target Audience: [Describe who will read this, e.g., non-technical stakeholders].
+Objective: [Explain why this task is being done and what the final goal is].
+
+# TASK
+Your main instruction is to: [Use a strong action verb like "Analyze," "Summarize," or "Generate"].
+Follow these specific steps:
+1. [Step 1: First action]
+2. [Step 2: Second action]
+3. [Step 3: Final action]
+
+# CONSTRAINTS
+- Length: [e.g., Under 300 words]
+- Exclude: [List topics or words to avoid]
+- Reasoning: Show your thinking step-by-step before providing the final answer.
+
+# EXAMPLES (FEW-SHOT)
+Input: [Example Input 1]
+Output: [Example Output 1]
+
+Input: [Example Input 2]
+Output: [Example Output 2]
+
+# OUTPUT FORMAT
+Format the final response as a [e.g., Markdown table, JSON object, or Bulleted list].
+Use the following headers: [List required section titles].
+
+# INPUT DATA
+{{Place variable or data here}}
+```
+
+## How do LLMs differ from traditional NLP techniques?
 
 **No explicit model training:**
 - Traditional NLP often involves building and training models on labeled datasets.
@@ -22,7 +60,7 @@
 
 **Instruction-driven vs. data-driven:**
 - In NLP, performance improvements usually come from more data or better algorithms.
-- In prompt engineering, improvements come from better phrasing, context, and structure of the prompt.
+- In prompt engineering, improvements come from better phrasing, context, and structure/template of the prompt.
 
 **Dynamic and iterative:**
 - Prompt engineering is more experimental and iterative—testing variations of prompts to optimize responses.
@@ -30,7 +68,7 @@
 
 **Few-shot and zero-shot capabilities:**
 - Prompt engineering leverages the model’s ability to generalize from few-shot or zero-shot.
-- Traditional NLP approaches is complicated and repetative.
+- Traditional NLP approaches are complicated and repetitive.
 
 ## What are the key components of an effective prompt?
 
@@ -42,7 +80,7 @@
 - Provide background or relevant details to guide the response.
 - Example: “You are an expert data scientist. Explain the difference between supervised and unsupervised learning.”
 
-### ✅ 3. Role or Persona (Optional but Powerful)
+### ✅ 3. Role or Persona
 - Assigning a role helps the model adopt the right tone and expertise.
 - Example: “Act as a career coach and suggest ways to improve my resume.”
 
@@ -70,7 +108,7 @@
 - Breaking instructions into clear sections (role, context, task, format) helps the model follow directions better.
   
 **Order Matters:**  
-- Start with the role/context, then the task, then constraints and examples.
+- Start with the role, then the context, task, constraints, and examples.
 - **Example:** “You are a financial analyst. Summarize the following report in 3 bullet points. Use plain language.”
 
 **Use of Examples (Few-shot):**
@@ -208,7 +246,7 @@
 
 ### ✅ 3. Use Role and Examples
 - Assign a role to guide tone and expertise.
-- Add few-shot examples to demonstrate the desired output.
+- Add a few-shot examples to demonstrate the desired output.
 
 ### ✅ 4. Test Variations (A/B Testing)
 - Try multiple prompt versions to see which performs best.
