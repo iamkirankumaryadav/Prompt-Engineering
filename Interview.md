@@ -8,7 +8,8 @@
 - **Impact:** Well-crafted prompts directly enhance the accuracy, tone, consistency, reliability, and relevance of AI outputs.
 - **Guidance:** Prompts provide the framework for the model to grasp persona, intent, context, task, constraints, and specific instructions.
 - **Risk:** Poorly designed prompts often result in ambiguity, misinterpretation, hallucinations, bias, or irrelevant content.
-- **Adaptability:** Prompt design enables zero-shot and few-shot learning, allowing the model to perform new tasks without retraining. 
+- **Adaptability:** Prompt design enables zero-shot and few-shot learning, allowing the model to perform new tasks without retraining.
+- **Unlock Full Potential:** Prompt allows you to communicate effectively with AI models and unlock their full potential.
 
 ## What is prompt engineering?
 - The art of designing and refining/optimizing prompts to guide LLMs toward generating the desired responses.
