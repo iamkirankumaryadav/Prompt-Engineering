@@ -11,7 +11,7 @@
 - Concepts like few-shot and zero-shot learning rely on prompt design to teach the model without retraining.
 
 ## What is prompt engineering?
-- The art of designing and optimizing prompts to guide LLMs toward generating the desired, accurate, relevant, and context-aware responses.
+- The art of designing and optimizing prompts to guide LLMs toward generating the desired responses.
 - Understanding how the model interprets language and leveraging that to achieve the desired result without retraining the model.
 
 ## Google Prompt Template
