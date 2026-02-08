@@ -289,18 +289,19 @@ Use the following headers: [List required section titles].
 - Prompts optimized for English may not work well in other languages or cultural contexts.
 
 ### ✅ 7. Evaluation Complexity
-- No universal metric for prompt quality; evaluation often relies on subjective human judgment or task-specific KPIs.
+- No universal metric for prompt quality, evaluation often relies on subjective human validation or task-specific KPIs.
 
-## Explain the role of few-shot and zero-shot learning in prompt engineering.
+## Explain the role of few-shot and zero-shot prompting in prompt engineering.
 
-### ✅ **Zero-Shot Learning**
-- **Definition:** The model performs a task without any examples—just from the instruction.
-- **Role in Prompt Engineering:** Relies on clear, explicit instructions.
-- Example: “Translate this sentence into French: ‘How are you?’”
-- (No examples provided, yet the model understands the task.)
+### ✅ Zero-Shot Prompting | Direct Prompts
+- **Definition:** The model executes a task based completely on instructions without receiving any prior examples.
+- **Role:** This approach depends entirely on the use of clear, explicit, and highly descriptive instructions.
+- **Example:** A simple request like "Translate 'How are you?' into French" serves as a complete prompt.
+- **Mechanism:** The model successfully interprets and performs the task without any examples.
+- **Applications:** Ideal for creative brainstorming, quick summarisation, and straightforward language translation.
 
-### ✅ **Few-Shot Learning**
-- **Definition:** The model is given a few examples of input-output pairs in the prompt to learn the pattern.
-- **Role in Prompt Engineering:** Improves accuracy and consistency for complex tasks.
-- Example: Translate English to French: Hello → Bonjour | Good morning → Bonjour
-- Now translate: How are you?
+### ✅ Few-Shot Prompting
+- **Definition:** The model is given one or more input-output examples within the prompt to recognize and replicate a specific pattern.
+- **Role:** Providing examples significantly improves accuracy and ensures consistent formatting for complex or specialized tasks.
+- **Example:** Supplying pairs like "Hello → Bonjour" and "Good morning → Bonjour" establishes the expected translation style.
+- **Mechanism:** The model uses the provided examples to guide its response.
