@@ -59,8 +59,8 @@ Use the following headers: [List required section titles].
 - **Execution:** It shifts the technical focus from data engineering and model training to crafting precise instructions and context.
 
 **Instruction-driven vs. data-driven:**
-- **Performance Drivers:** Traditional NLP relies on scaling data and algorithms, whereas prompt engineering relies on refining phrasing and structure**.
-- Optimization:** Improvements are achieved through better context and templates rather than technical modifications to the underlying model.
+- **Performance Drivers:** Traditional NLP relies on scaling data and algorithms, whereas prompt engineering relies on refining phrasing and structure.
+- **Optimization:** Improvements are achieved through better context and templates rather than technical modifications to the underlying model.
 
 **Dynamic and iterative:**
 - **Workflow:** Prompt engineering is a dynamic, experimental process focused on iteratively testing prompt variations to optimize outputs.
